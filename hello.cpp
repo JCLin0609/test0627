@@ -1,6 +1,12 @@
 #include<iostream>
 using namespace std;
-int main(){
+
+void testfunc(){
     cout << "Hello world." << endl;
+    return;
+}
+
+int main(){
+    testfunc();
     return 0;
 }
