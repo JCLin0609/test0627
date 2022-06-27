@@ -1,14 +1,16 @@
 #include<iostream>
 using namespace std;
 
-void testfunc2(){
-    cout << "Hello world." << endl;
-    cout << "Hello world." << endl;
-    cout << "Hello world." << endl;
+void testfunc2(int i){
+    while(i>0){
+        cout << "Hello world." << endl;
+        i--;
+    }
     return;
 }
 
 int main(){
-    testfunc2();
+    int num=5;
+    testfunc2(num);
     return 0;
 }
